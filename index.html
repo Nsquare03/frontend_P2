@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Profile</title>
+	<style>
+		*{
+			box-sizing: border-box;
+		}
+		.profile{
+			border-radius: 12px;
+			background-color: hsl(0, 0%, 12%);
+			margin: 80px auto;
+			width: 90%;
+			max-width: 300px;
+			padding: 40px;
+
+		}
+		.profile img{
+			border-radius: 50%;
+			display: block;
+			margin: 0px auto;
+			width: 23%;
+		}
+		.content{
+			text-align: center;
+			font-family: Inter;
+			margin-top: 20px ;
+
+		}
+		.name{
+			color: whitesmoke; 
+			font-size: 20px;
+
+		}
+		.blocks{
+			vertical-align: center;
+		}
+		.social-media-handle{
+			width: 80%;
+			border-radius: 8px;
+			background-color: hsl(0, 0%, 20%);
+			text-align: center;
+			margin: 15px auto;
+			font-family: Inter;
+			font-size: 10px;
+			padding: 10px;
+		}
+		a {
+			text-decoration: none;
+			color: whitesmoke;
+		}
+		.social-media-handle:hover {
+			background-color: hsl(75, 94%, 57%);
+			transform: scale(1.02);
+			transition: all 0.3s ease;
+		}
+		.social-media-handle:hover a{
+			color: black;
+			transform: scale(1.02);
+			transition: all 0.3s ease;
+		}
+		.profile img:hover{
+			box-shadow: 0px 8px 8px hsl(0, 0%, 100%);
+			cursor: pointer;
+			transform: scale(1.03);
+			transition: all 0.3s ease;
+		}
+		.name{
+			color: whitesmoke; 
+			font-size: 20px;
+			cursor: pointer;
+		}
+        @media (max-width: 400px) {
+	       .profile {
+	       	padding: 20px;
+	    }
+	       .name {
+	    	font-size: 18px;
+	    }
+	      .social-media-handle {
+	     	font-size: 0.75rem;
+	    	padding: 8px;
+	    }
+    }
+
+	</style>
+</head>
+<body style="background-color: hsl(0, 0%, 8%);">
+	<div class="profile">
+		<img src="image/avatar-jessica.jpeg" alt="profile-pic">
+		    <div class="content">
+		    	<span class="name">Jessica Randall</span>
+		    	<br>
+		    	<span style="color:hsl(75, 94%, 57%); font-size: 11px;">London, United Kingdom</span>
+		    	<p style="color: #DCDCDC; font-size: 11px;">"Front-end developer and avid reader."</p>
+		    </div>
+		    <div class="blocks">
+		    	<div class="social-media-handle"><a href="index.html"><b>GitHub</b></a></div>
+		    	<div class="social-media-handle"><a href="index.html"><b>Frontend Mentor</b></a></div>
+		    	<div class="social-media-handle"><a href="index.html"><b>Linkedin</b></a></div>
+		    	<div class="social-media-handle"><a href="index.html"><b>Twitter</b></a></div>
+		    	<div class="social-media-handle"><a href="index.html"><b>Instagram</b></a></div> 	 
+		    </div>
+	</div>
+
+</body>
+</html>
